@@ -19,24 +19,21 @@
             margin-right: 20px;
         }
 
-/* Sección de TecnoJaguar */
 .hero {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Asegura que el contenido esté en columna */
     align-items: center;
-    justify-content: center;
-    height: 500px;
-    background: linear-gradient(to bottom, #09386b, white);
-    color: black;
-    text-align: center;
+    justify-content: center; /* Centrar verticalmente */
+    height: 300px; /* Ajusta la altura según sea necesario */
 }
 
 .hero h1 {
-    font-family: "Poppins", sans-serif;
-    font-size: 3rem;
-    font-weight: bold;
-    color: #ffffff;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    font-family: "Poppins", sans-serif; /* Cambia la fuente a Poppins (o la que prefieras) */
+    font-size: 3rem; /* Ajusta el tamaño de la fuente */
+    font-weight: bold; /* Hace el texto más llamativo */
+    text-align: center; /* Asegura que el texto esté centrado */
+    color: #ffffff; /* Cambia el color del texto si es necesario */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Agrega un leve sombreado */
 }
 
 /* Estilos para la marca de agua */
