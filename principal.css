@@ -2,6 +2,22 @@
 .navbar {
     background-color: #09386b !important;
 }
+.navbar-brand img {
+            width: 100px; /* Reducir tamaño de la imagen */
+            height: auto;
+            margin-right: 20px;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start; /* Alineado a la izquierda */
+            padding: 40px;
+        }
+        .hero img {
+            width: 150px; /* Reducir tamaño de la imagen */
+            height: auto;
+            margin-right: 20px;
+        }
 
 /* Sección de TecnoJaguar */
 .hero {
